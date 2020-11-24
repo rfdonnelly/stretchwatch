@@ -8,7 +8,7 @@ var timer;
 
 function timer_onload() {
     count_div.innerHTML = "Laps";
-    timer_div.innerHTML = "Click to start";
+    timer_div.innerHTML = "Start";
 }
 
 function timer_onclick() {
