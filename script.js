@@ -6,9 +6,13 @@ var ticks = 0;
 var count = 0;
 var timer;
 
-function timer_onload() {
+init();
+
+function init() {
     count_div.innerHTML = "Laps";
     timer_div.innerHTML = "Start";
+
+    timer_div.addEventListener("click", timer_onclick);
 }
 
 function timer_onclick() {
