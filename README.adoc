@@ -1,0 +1,11 @@
+= Stretchwatch
+
+A simple stop watch for stretching.
+
+Reports the current "lap" time and the number of "laps."
+
+== History
+
+I wanted a simple stopwatch for stretching.
+All I wanted to know was the elapsed of the current "lap" and the number of "laps" I had completed.
+However, all the stopwatches I could find reported the total elapsed time and a list of lap times.
