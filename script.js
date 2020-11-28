@@ -9,7 +9,7 @@ var timer;
 init();
 
 function init() {
-    count_div.innerHTML = "Laps";
+    count_div.innerHTML = "Lap";
     timer_div.innerHTML = "Start";
 
     timer_div.addEventListener("click", timer_onclick);
@@ -27,7 +27,7 @@ function start() {
     running = 1;
     timer = setInterval(tick, 10);
 
-    count = 0;
+    count = 1;
     count_div.innerHTML = count;
 }
 
